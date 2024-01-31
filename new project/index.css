@@ -1,0 +1,42 @@
+center{
+    background-color: blue;
+    color: white;
+}
+#quotes {
+       padding-top: 0.01px;
+       padding-bottom: 20px;
+
+}
+nav{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li {
+    background-color:rgb(9, 9, 172);
+    float: left;
+    transition: 0.1s;
+   
+
+}
+a{
+    color: inherit;
+    display: block;
+    padding: 10px 30px;
+}
+nav ul li:hover{
+    color:rgb(9, 9, 172);
+    background-color:skyblue ;
+}
+nav ul li:first-child {
+    border-radius: 7px 0 0 7px;
+
+}
+nav ul li:last-child {
+    border-radius: 0 7px 7px 0;
+
+}
